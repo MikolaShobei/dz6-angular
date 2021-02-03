@@ -1,0 +1,16 @@
+<ul>
+  <li>name:  {{user?.name}}</li>
+  <li>username:  {{user?.username}}</li>
+  <li>address:  {{user?.address}}</li>
+  <li>email:  {{user?.email}}</li>
+  <li>phone:  {{user?.phone}}</li>
+  <li>website:  {{user?.website}}</li>
+  <li>
+    <ul>address:
+      <li>{{user?.address?.city}}</li>
+      <li>{{user?.address?.street}}</li>
+      <li>{{user?.address?.suite}}</li>
+    </ul>
+  </li>
+
+</ul>
